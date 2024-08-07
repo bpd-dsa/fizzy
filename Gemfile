@@ -17,9 +17,6 @@ gem "sqlite3", ">= 2.0"
 # Features
 gem "bcrypt", "~> 3.1.7"
 
-# Needed until Ruby 3.3.4 is released https://github.com/ruby/ruby/pull/11006
-gem "net-pop", github: "ruby/net-pop"
-
 group :development, :test do
   gem "brakeman", require: false
   gem "rubocop-rails-omakase", require: false

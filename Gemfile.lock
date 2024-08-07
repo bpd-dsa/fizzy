@@ -95,12 +95,6 @@ GIT
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
 
-GIT
-  remote: https://github.com/ruby/net-pop.git
-  revision: e8d0afe2773b9eb6a23c39e9e437f6fc0fc7c733
-  specs:
-    net-pop (0.1.2)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -161,6 +155,7 @@ GEM
     net-imap (0.4.13)
       date
       net-protocol
+    net-pop (0.1.2)
     net-protocol (0.2.2)
       timeout
     net-smtp (0.5.0)
@@ -309,7 +304,6 @@ DEPENDENCIES
   brakeman
   capybara
   importmap-rails
-  net-pop!
   propshaft
   puma (>= 5.0)
   rails!
@@ -320,7 +314,7 @@ DEPENDENCIES
   turbo-rails
 
 RUBY VERSION
-   ruby 3.3.3p89
+   ruby 3.3.4p94
 
 BUNDLED WITH
    2.5.11
